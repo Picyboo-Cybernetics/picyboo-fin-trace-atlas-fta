@@ -50,7 +50,7 @@
     --grad: var(--bg-grad);
     --badge-surface: var(--badge-bg-dark);
     --text-default: var(--fg);
-    --text-contrast: #0B1220;
+    --text-contrast: #F8FAFF;
     --chart-accent: var(--accent2);
     --chart-muted: rgba(154, 164, 174, 0.35);
     --chart-label: var(--text-default);
