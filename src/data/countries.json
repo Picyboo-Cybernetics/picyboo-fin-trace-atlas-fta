@@ -1,0 +1,577 @@
+[
+  {
+    "iso3": "THA",
+    "country": "Thailand",
+    "regulators": [
+      {"name": "SEC Thailand", "url": "https://www.sec.or.th"},
+      {"name": "Bank of Thailand", "url": "https://www.bot.or.th", "scope": "Payments/AML"}
+    ],
+    "rules": [
+      {"code": "AML", "title": "Anti-Money Laundering Framework"},
+      {"code": "VASP", "title": "Digital Asset Business Licensing"}
+    ],
+    "sources": ["https://www.bot.or.th", "https://www.sec.or.th"],
+    "scores": {"apiMaturity": 45, "auditReadiness": 60, "reportingCadence": 55}
+  },
+  {
+    "iso3": "USA",
+    "country": "United States",
+    "regulators": [
+      {"name": "SEC", "url": "https://www.sec.gov"},
+      {"name": "CFTC", "url": "https://www.cftc.gov"},
+      {"name": "FinCEN", "url": "https://www.fincen.gov", "scope": "AML/CFT"}
+    ],
+    "rules": [
+      {"code": "SEC-34", "title": "Exchange Act Reporting"},
+      {"code": "AML", "title": "FinCEN AML Program"}
+    ],
+    "sources": ["https://www.sec.gov", "https://www.fincen.gov", "https://www.cftc.gov"],
+    "scores": {"apiMaturity": 70, "auditReadiness": 80, "reportingCadence": 75}
+  },
+  {
+    "iso3": "DEU",
+    "country": "Germany",
+    "regulators": [
+      {"name": "BaFin", "url": "https://www.bafin.de"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "GwG", "title": "Geldwäschegesetz"}
+    ],
+    "sources": ["https://www.bafin.de"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 75, "reportingCadence": 65}
+  },
+  {
+    "iso3": "GBR",
+    "country": "United Kingdom",
+    "regulators": [
+      {"name": "FCA", "url": "https://www.fca.org.uk"},
+      {"name": "Bank of England / PRA", "url": "https://www.bankofengland.co.uk", "scope": "Prudential"}
+    ],
+    "rules": [
+      {"code": "FSMA", "title": "Financial Services and Markets Act"},
+      {"code": "MLR", "title": "Money Laundering Regulations"}
+    ],
+    "sources": ["https://www.fca.org.uk", "https://www.legislation.gov.uk"],
+    "scores": {"apiMaturity": 75, "auditReadiness": 80, "reportingCadence": 70}
+  },
+  {
+    "iso3": "SGP",
+    "country": "Singapore",
+    "regulators": [
+      {"name": "MAS", "url": "https://www.mas.gov.sg"}
+    ],
+    "rules": [
+      {"code": "PSA", "title": "Payment Services Act"},
+      {"code": "SFA", "title": "Securities and Futures Act"}
+    ],
+    "sources": ["https://www.mas.gov.sg"],
+    "scores": {"apiMaturity": 85, "auditReadiness": 85, "reportingCadence": 80}
+  },
+  {
+    "iso3": "CHE",
+    "country": "Switzerland",
+    "regulators": [
+      {"name": "FINMA", "url": "https://www.finma.ch"}
+    ],
+    "rules": [
+      {"code": "AMLA", "title": "Anti-Money Laundering Act"},
+      {"code": "DLT", "title": "DLT/Blockchain legal framework"}
+    ],
+    "sources": ["https://www.finma.ch"],
+    "scores": {"apiMaturity": 70, "auditReadiness": 80, "reportingCadence": 65}
+  },
+  {
+    "iso3": "JPN",
+    "country": "Japan",
+    "regulators": [
+      {"name": "FSA Japan", "url": "https://www.fsa.go.jp"}
+    ],
+    "rules": [
+      {"code": "PSA", "title": "Payment Services Act"},
+      {"code": "FIEA", "title": "Financial Instruments and Exchange Act"}
+    ],
+    "sources": ["https://www.fsa.go.jp"],
+    "scores": {"apiMaturity": 75, "auditReadiness": 80, "reportingCadence": 70}
+  },
+  {
+    "iso3": "HKG",
+    "country": "Hong Kong",
+    "regulators": [
+      {"name": "SFC", "url": "https://www.sfc.hk"},
+      {"name": "HKMA", "url": "https://www.hkma.gov.hk", "scope": "Banking/Payments"}
+    ],
+    "rules": [
+      {"code": "VATP", "title": "Virtual Asset Trading Platform regime"},
+      {"code": "AMLO", "title": "Anti-Money Laundering Ordinance"}
+    ],
+    "sources": ["https://www.sfc.hk", "https://www.hkma.gov.hk"],
+    "scores": {"apiMaturity": 80, "auditReadiness": 80, "reportingCadence": 75}
+  },
+  {
+    "iso3": "ARE",
+    "country": "United Arab Emirates",
+    "regulators": [
+      {"name": "VARA (Dubai)", "url": "https://www.vara.ae"},
+      {"name": "CBUAE", "url": "https://www.centralbank.ae", "scope": "Prudential/Payments"}
+    ],
+    "rules": [
+      {"code": "VARA", "title": "Virtual Assets and Related Activities"},
+      {"code": "AML", "title": "CBUAE/FIU AML"}
+    ],
+    "sources": ["https://www.vara.ae", "https://www.centralbank.ae"],
+    "scores": {"apiMaturity": 65, "auditReadiness": 70, "reportingCadence": 60}
+  },
+  {
+    "iso3": "AUS",
+    "country": "Australia",
+    "regulators": [
+      {"name": "ASIC", "url": "https://asic.gov.au"},
+      {"name": "AUSTRAC", "url": "https://www.austrac.gov.au", "scope": "AML/CTF"}
+    ],
+    "rules": [
+      {"code": "CORPS", "title": "Corporations Act"},
+      {"code": "AML/CTF", "title": "Anti-Money Laundering and Counter-Terrorism Financing"}
+    ],
+    "sources": ["https://asic.gov.au", "https://www.austrac.gov.au"],
+    "scores": {"apiMaturity": 70, "auditReadiness": 75, "reportingCadence": 70}
+  },
+  {
+    "iso3": "CAN",
+    "country": "Canada",
+    "regulators": [
+      {"name": "FINTRAC", "url": "https://fintrac-canafe.canada.ca"},
+      {"name": "CSA", "url": "https://www.securities-administrators.ca", "scope": "Securities"}
+    ],
+    "rules": [
+      {"code": "PCMLTFA", "title": "Proceeds of Crime (Money Laundering) and Terrorist Financing Act"}
+    ],
+    "sources": ["https://fintrac-canafe.canada.ca", "https://www.securities-administrators.ca"],
+    "scores": {"apiMaturity": 65, "auditReadiness": 75, "reportingCadence": 65}
+  },
+  {
+    "iso3": "FRA",
+    "country": "France",
+    "regulators": [
+      {"name": "AMF", "url": "https://www.amf-france.org"},
+      {"name": "ACPR", "url": "https://acpr.banque-france.fr", "scope": "Banking/Insurance"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-money laundering"}
+    ],
+    "sources": ["https://www.amf-france.org", "https://acpr.banque-france.fr"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 75, "reportingCadence": 65}
+  },
+  {
+    "iso3": "NLD",
+    "country": "Netherlands",
+    "regulators": [
+      {"name": "DNB", "url": "https://www.dnb.nl"},
+      {"name": "AFM", "url": "https://www.afm.nl", "scope": "Securities"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "WWFT", "title": "Anti-Money Laundering and Anti-Terrorist Financing Act"}
+    ],
+    "sources": ["https://www.dnb.nl", "https://www.afm.nl"],
+    "scores": {"apiMaturity": 65, "auditReadiness": 75, "reportingCadence": 70}
+  },
+  {
+    "iso3": "ITA",
+    "country": "Italy",
+    "regulators": [
+      {"name": "CONSOB", "url": "https://www.consob.it"},
+      {"name": "Banca d'Italia", "url": "https://www.bancaditalia.it", "scope": "Banking/AML"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Decree"}
+    ],
+    "sources": ["https://www.consob.it"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 70, "reportingCadence": 60}
+  },
+  {
+    "iso3": "ESP",
+    "country": "Spain",
+    "regulators": [
+      {"name": "CNMV", "url": "https://www.cnmv.es"},
+      {"name": "Bank of Spain", "url": "https://www.bde.es", "scope": "Banking/AML"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Law"}
+    ],
+    "sources": ["https://www.cnmv.es"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 70, "reportingCadence": 60}
+  },
+  {
+    "iso3": "BEL",
+    "country": "Belgium",
+    "regulators": [
+      {"name": "FSMA", "url": "https://www.fsma.be"},
+      {"name": "NBB", "url": "https://www.nbb.be", "scope": "Banking/Prudential"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Law"}
+    ],
+    "sources": ["https://www.fsma.be"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 70, "reportingCadence": 65}
+  },
+  {
+    "iso3": "AUT",
+    "country": "Austria",
+    "regulators": [
+      {"name": "FMA", "url": "https://www.fma.gv.at"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Financial Market Anti-Money Laundering Act"}
+    ],
+    "sources": ["https://www.fma.gv.at"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 75, "reportingCadence": 65}
+  },
+  {
+    "iso3": "SWE",
+    "country": "Sweden",
+    "regulators": [
+      {"name": "Finansinspektionen", "url": "https://www.fi.se"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Money Laundering Act"}
+    ],
+    "sources": ["https://www.fi.se"],
+    "scores": {"apiMaturity": 65, "auditReadiness": 75, "reportingCadence": 70}
+  },
+  {
+    "iso3": "DNK",
+    "country": "Denmark",
+    "regulators": [
+      {"name": "Finanstilsynet", "url": "https://www.dfsa.dk"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Act"}
+    ],
+    "sources": ["https://www.dfsa.dk"],
+    "scores": {"apiMaturity": 65, "auditReadiness": 75, "reportingCadence": 70}
+  },
+  {
+    "iso3": "FIN",
+    "country": "Finland",
+    "regulators": [
+      {"name": "FIN-FSA", "url": "https://www.finanssivalvonta.fi"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Act"}
+    ],
+    "sources": ["https://www.finanssivalvonta.fi"],
+    "scores": {"apiMaturity": 65, "auditReadiness": 75, "reportingCadence": 70}
+  },
+  {
+    "iso3": "NOR",
+    "country": "Norway",
+    "regulators": [
+      {"name": "Finanstilsynet", "url": "https://www.finanstilsynet.no"}
+    ],
+    "rules": [
+      {"code": "AML", "title": "Anti-Money Laundering Act"},
+      {"code": "MiFID", "title": "Securities Trading Act"}
+    ],
+    "sources": ["https://www.finanstilsynet.no"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 70, "reportingCadence": 65}
+  },
+  {
+    "iso3": "POL",
+    "country": "Poland",
+    "regulators": [
+      {"name": "KNF", "url": "https://www.knf.gov.pl"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Act"}
+    ],
+    "sources": ["https://www.knf.gov.pl"],
+    "scores": {"apiMaturity": 50, "auditReadiness": 65, "reportingCadence": 60}
+  },
+  {
+    "iso3": "CZE",
+    "country": "Czechia",
+    "regulators": [
+      {"name": "CNB", "url": "https://www.cnb.cz"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Act"}
+    ],
+    "sources": ["https://www.cnb.cz"],
+    "scores": {"apiMaturity": 50, "auditReadiness": 65, "reportingCadence": 60}
+  },
+  {
+    "iso3": "PRT",
+    "country": "Portugal",
+    "regulators": [
+      {"name": "CMVM", "url": "https://www.cmvm.pt"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Law"}
+    ],
+    "sources": ["https://www.cmvm.pt"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 70, "reportingCadence": 60}
+  },
+  {
+    "iso3": "GRC",
+    "country": "Greece",
+    "regulators": [
+      {"name": "HCMC", "url": "https://www.hcmc.gr"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Anti-Money Laundering Law"}
+    ],
+    "sources": ["https://www.hcmc.gr"],
+    "scores": {"apiMaturity": 50, "auditReadiness": 65, "reportingCadence": 55}
+  },
+  {
+    "iso3": "IRL",
+    "country": "Ireland",
+    "regulators": [
+      {"name": "Central Bank of Ireland", "url": "https://www.centralbank.ie"}
+    ],
+    "rules": [
+      {"code": "MiCA", "title": "Markets in Crypto-Assets"},
+      {"code": "AML", "title": "Criminal Justice (Money Laundering and Terrorist Financing) Acts"}
+    ],
+    "sources": ["https://www.centralbank.ie"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 70, "reportingCadence": 65}
+  },
+  {
+    "iso3": "RUS",
+    "country": "Russia",
+    "regulators": [
+      {"name": "Bank of Russia", "url": "https://www.cbr.ru"}
+    ],
+    "rules": [
+      {"code": "DFA", "title": "Digital Financial Assets Law"},
+      {"code": "EXPERIMENTAL", "title": "Experimental Legal Regime for Qualified Investors"}
+    ],
+    "sources": ["https://www.cbr.ru"],
+    "scores": {"apiMaturity": 40, "auditReadiness": 50, "reportingCadence": 45}
+  },
+  {
+    "iso3": "CHN",
+    "country": "China",
+    "regulators": [
+      {"name": "PBOC", "url": "https://www.pbc.gov.cn"},
+      {"name": "CAC", "url": "http://www.cac.gov.cn", "scope": "Cyberspace"}
+    ],
+    "rules": [
+      {"code": "BAN", "title": "Comprehensive Crypto Ban"},
+      {"code": "e-CNY", "title": "Digital Yuan CBDC"}
+    ],
+    "sources": ["https://www.pbc.gov.cn"],
+    "scores": {"apiMaturity": 0, "auditReadiness": 0, "reportingCadence": 0}
+  },
+  {
+    "iso3": "IDN",
+    "country": "Indonesia",
+    "regulators": [
+      {"name": "OJK", "url": "https://www.ojk.go.id"},
+      {"name": "Bank Indonesia", "url": "https://www.bi.go.id", "scope": "Payments"}
+    ],
+    "rules": [
+      {"code": "POJK-27", "title": "Digital Financial Asset Trading"},
+      {"code": "AML", "title": "Anti-Money Laundering"}
+    ],
+    "sources": ["https://www.ojk.go.id"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 65, "reportingCadence": 60}
+  },
+  {
+    "iso3": "QAT",
+    "country": "Qatar",
+    "regulators": [
+      {"name": "QFCRA", "url": "https://www.qfcra.com"},
+      {"name": "QCB", "url": "https://www.qcb.gov.qa", "scope": "Banking"}
+    ],
+    "rules": [
+      {"code": "DAF", "title": "Digital Assets Framework 2024"},
+      {"code": "AML", "title": "Anti-Money Laundering"}
+    ],
+    "sources": ["https://www.qfcra.com"],
+    "scores": {"apiMaturity": 50, "auditReadiness": 60, "reportingCadence": 55}
+  },
+  {
+    "iso3": "SAU",
+    "country": "Saudi Arabia",
+    "regulators": [
+      {"name": "SAMA", "url": "https://www.sama.gov.sa"},
+      {"name": "CMA", "url": "https://cma.org.sa", "scope": "Securities"}
+    ],
+    "rules": [
+      {"code": "AML", "title": "Anti-Money Laundering Law"},
+      {"code": "SANDBOX", "title": "Fintech Regulatory Sandbox"}
+    ],
+    "sources": ["https://www.sama.gov.sa"],
+    "scores": {"apiMaturity": 45, "auditReadiness": 55, "reportingCadence": 50}
+  },
+  {
+    "iso3": "ZAF",
+    "country": "South Africa",
+    "regulators": [
+      {"name": "FSCA", "url": "https://www.fsca.co.za"},
+      {"name": "SARB", "url": "https://www.resbank.co.za", "scope": "Central Bank"}
+    ],
+    "rules": [
+      {"code": "FICA", "title": "Financial Intelligence Centre Act"},
+      {"code": "CRYPTO", "title": "Crypto Asset Regulatory Framework"}
+    ],
+    "sources": ["https://www.fsca.co.za"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 65, "reportingCadence": 60}
+  },
+  {
+    "iso3": "KOR",
+    "country": "South Korea",
+    "regulators": [
+      {"name": "FSC", "url": "https://www.fsc.go.kr"}
+    ],
+    "rules": [
+      {"code": "VASP", "title": "Virtual Asset Service Provider Act"},
+      {"code": "AML", "title": "Special Financial Information Act"}
+    ],
+    "sources": ["https://www.fsc.go.kr"],
+    "scores": {"apiMaturity": 65, "auditReadiness": 70, "reportingCadence": 65}
+  },
+  {
+    "iso3": "IND",
+    "country": "India",
+    "regulators": [
+      {"name": "RBI", "url": "https://www.rbi.org.in"}
+    ],
+    "rules": [
+      {"code": "TAX", "title": "Crypto Taxation (30% + 1% TDS)"},
+      {"code": "AML", "title": "Prevention of Money Laundering Act"}
+    ],
+    "sources": ["https://www.rbi.org.in"],
+    "scores": {"apiMaturity": 40, "auditReadiness": 50, "reportingCadence": 45}
+  },
+  {
+    "iso3": "BRA",
+    "country": "Brazil",
+    "regulators": [
+      {"name": "BCB", "url": "https://www.bcb.gov.br"}
+    ],
+    "rules": [
+      {"code": "VASP", "title": "Virtual Asset Service Provider Framework"},
+      {"code": "AML", "title": "Anti-Money Laundering Law"}
+    ],
+    "sources": ["https://www.bcb.gov.br"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 65, "reportingCadence": 60}
+  },
+  {
+    "iso3": "MEX",
+    "country": "Mexico",
+    "regulators": [
+      {"name": "CNBV", "url": "https://www.gob.mx/cnbv"}
+    ],
+    "rules": [
+      {"code": "FINTECH", "title": "Fintech Law"},
+      {"code": "AML", "title": "Federal Law for Prevention of Money Laundering"}
+    ],
+    "sources": ["https://www.gob.mx/cnbv"],
+    "scores": {"apiMaturity": 50, "auditReadiness": 60, "reportingCadence": 55}
+  },
+  {
+    "iso3": "TUR",
+    "country": "Türkiye",
+    "regulators": [
+      {"name": "CMB", "url": "https://www.spk.gov.tr"}
+    ],
+    "rules": [
+      {"code": "CRYPTO-LAW", "title": "Crypto Asset Law 2024"},
+      {"code": "PAYMENT-BAN", "title": "Ban on Crypto Payments"}
+    ],
+    "sources": ["https://www.spk.gov.tr"],
+    "scores": {"apiMaturity": 50, "auditReadiness": 60, "reportingCadence": 55}
+  },
+  {
+    "iso3": "NGA",
+    "country": "Nigeria",
+    "regulators": [
+      {"name": "SEC Nigeria", "url": "https://sec.gov.ng"}
+    ],
+    "rules": [
+      {"code": "DIGITAL-ASSETS", "title": "Digital Assets Framework"}
+    ],
+    "sources": ["https://sec.gov.ng"],
+    "scores": {"apiMaturity": 45, "auditReadiness": 55, "reportingCadence": 50}
+  },
+  {
+    "iso3": "ISR",
+    "country": "Israel",
+    "regulators": [
+      {"name": "ISA", "url": "https://www.isa.gov.il"}
+    ],
+    "rules": [
+      {"code": "SECURITIES", "title": "Securities Law"},
+      {"code": "AML", "title": "Prohibition on Money Laundering Law"}
+    ],
+    "sources": ["https://www.isa.gov.il"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 65, "reportingCadence": 60}
+  },
+  {
+    "iso3": "NZL",
+    "country": "New Zealand",
+    "regulators": [
+      {"name": "FMA", "url": "https://www.fma.govt.nz"}
+    ],
+    "rules": [
+      {"code": "FMCA", "title": "Financial Markets Conduct Act"},
+      {"code": "AML", "title": "AML and Countering Financing of Terrorism Act"}
+    ],
+    "sources": ["https://www.fma.govt.nz"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 70, "reportingCadence": 65}
+  },
+  {
+    "iso3": "MYS",
+    "country": "Malaysia",
+    "regulators": [
+      {"name": "SC Malaysia", "url": "https://www.sc.com.my"}
+    ],
+    "rules": [
+      {"code": "DIGITAL-ASSETS", "title": "Guidelines on Digital Assets"},
+      {"code": "AML", "title": "AMLA"}
+    ],
+    "sources": ["https://www.sc.com.my"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 65, "reportingCadence": 60}
+  },
+  {
+    "iso3": "PHL",
+    "country": "Philippines",
+    "regulators": [
+      {"name": "BSP", "url": "https://www.bsp.gov.ph"}
+    ],
+    "rules": [
+      {"code": "VASP", "title": "VASP Guidelines"},
+      {"code": "AML", "title": "Anti-Money Laundering Act"}
+    ],
+    "sources": ["https://www.bsp.gov.ph"],
+    "scores": {"apiMaturity": 55, "auditReadiness": 60, "reportingCadence": 55}
+  },
+  {
+    "iso3": "TWN",
+    "country": "Taiwan",
+    "regulators": [
+      {"name": "FSC Taiwan", "url": "https://www.fsc.gov.tw"}
+    ],
+    "rules": [
+      {"code": "AML", "title": "Money Laundering Control Act"},
+      {"code": "VASP", "title": "VASP Guidelines"}
+    ],
+    "sources": ["https://www.fsc.gov.tw"],
+    "scores": {"apiMaturity": 60, "auditReadiness": 65, "reportingCadence": 60}
+  }
+]

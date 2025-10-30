@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sec-0001",
+    "source": "SEC",
+    "title": "Sample SEC item",
+    "link": "https://www.sec.gov",
+    "published": "2025-01-01T00:00:00Z",
+    "countryIso3": "USA"
+  },
+  {
+    "id": "bafin-0001",
+    "source": "BaFin",
+    "title": "Sample BaFin item",
+    "link": "https://www.bafin.de",
+    "published": "2025-01-02T00:00:00Z",
+    "countryIso3": "DEU"
+  }
+]
