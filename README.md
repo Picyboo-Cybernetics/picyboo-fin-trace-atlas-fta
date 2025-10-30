@@ -25,3 +25,7 @@ npm run build
 ## Notes
 - Uses bundled `world-countries.geo.json` for polygon layer (no external tiles required).
 - No exploits, only official-source metadata.
+
+## Maintainer
+**Picyboo Cybernetics Inc.** – British Columbia, Canada  
+Issues and inquiries: contact@picyboo.com
